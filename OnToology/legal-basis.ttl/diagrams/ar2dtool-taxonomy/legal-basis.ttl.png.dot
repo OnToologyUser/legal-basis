@@ -1,0 +1,15 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:ContractWithDataSubject" "base:ProtectVitalInterestsOfDataSubject" "base:NationalLawRegulatingFreedomOfExpressionAndInformation" "base:LegalBasis" "base:OfficialAuthorityOfController" "base:EmploymentLaw" "base:GivenConsent" "base:TaskCarriedOutInPublicInterest" "base:LegalObligation" "base:LegitimateInterest" ; /*classes style*/
+	"base:NationalLawRegulatingFreedomOfExpressionAndInformation" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:TaskCarriedOutInPublicInterest" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:ContractWithDataSubject" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:OfficialAuthorityOfController" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:LegitimateInterest" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:LegalObligation" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:ProtectVitalInterestsOfDataSubject" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:EmploymentLaw" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+	"base:GivenConsent" -> "base:LegalBasis" [ label = "rdfs:subClassOf" ];
+
+}

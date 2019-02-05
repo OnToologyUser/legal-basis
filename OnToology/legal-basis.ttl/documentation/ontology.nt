@@ -1,0 +1,75 @@
+<https://w3id.org/priv/legal-basis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/priv/legal-basis> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Basis for processing of personal data" .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/priv/legal-basis#hasLegalBasis
+<https://w3id.org/priv/legal-basis#hasLegalBasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/priv/legal-basis#hasLegalBasis> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#hasLegalBasis> <http://www.w3.org/2000/01/rdf-schema#label> "has legal basis" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/priv/legal-basis#ContractWithDataSubject
+<https://w3id.org/priv/legal-basis#ContractWithDataSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#ContractWithDataSubject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#ContractWithDataSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Contract with Data Subject" .
+# 
+# https://w3id.org/priv/legal-basis#EmploymentLaw
+<https://w3id.org/priv/legal-basis#EmploymentLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#EmploymentLaw> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#EmploymentLaw> <http://www.w3.org/2000/01/rdf-schema#label> "Employment Law" .
+# 
+# https://w3id.org/priv/legal-basis#GivenConsent
+<https://w3id.org/priv/legal-basis#GivenConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#GivenConsent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#GivenConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Given Consent" .
+# 
+# https://w3id.org/priv/legal-basis#LegalBasis
+<https://w3id.org/priv/legal-basis#LegalBasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#LegalBasis> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Basis" .
+# 
+# https://w3id.org/priv/legal-basis#LegalObligation
+<https://w3id.org/priv/legal-basis#LegalObligation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#LegalObligation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#LegalObligation> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Obligation" .
+# 
+# https://w3id.org/priv/legal-basis#LegitimateInterest
+<https://w3id.org/priv/legal-basis#LegitimateInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#LegitimateInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#LegitimateInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Legitimate Interest" .
+# 
+# https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation
+<https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation> <http://www.w3.org/2000/01/rdf-schema#label> "National Law Regulating Freedom of Expression and Information" .
+# 
+# https://w3id.org/priv/legal-basis#OfficialAuthorityOfController
+<https://w3id.org/priv/legal-basis#OfficialAuthorityOfController> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#OfficialAuthorityOfController> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#OfficialAuthorityOfController> <http://www.w3.org/2000/01/rdf-schema#label> "Official Authority of Controller" .
+# 
+# https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject
+<https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Protect Vital Interests of Data Subject" .
+# 
+# https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest
+<https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/legal-basis#LegalBasis> .
+<https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest> <http://www.w3.org/2000/01/rdf-schema#label> "Task carried out in Public Interest" .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

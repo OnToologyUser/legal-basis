@@ -1,0 +1,103 @@
+[ {
+  "@id" : "https://w3id.org/priv/legal-basis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Basis for processing of personal data"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#ContractWithDataSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contract with Data Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#EmploymentLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Employment Law"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#GivenConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Given Consent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#LegalBasis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Basis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#LegalObligation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Obligation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#LegitimateInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legitimate Interest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "National Law Regulating Freedom of Expression and Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#OfficialAuthorityOfController",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Official Authority of Controller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Protect Vital Interests of Data Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Task carried out in Public Interest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/legal-basis#hasLegalBasis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal basis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+  } ]
+} ]

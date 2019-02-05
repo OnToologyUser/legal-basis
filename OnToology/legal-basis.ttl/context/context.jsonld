@@ -1,0 +1,41 @@
+{
+  "@context" : {
+    "ContractWithDataSubject" : {
+      "@id" : "https://w3id.org/priv/legal-basis#ContractWithDataSubject"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "NationalLawRegulatingFreedomOfExpressionAndInformation" : {
+      "@id" : "https://w3id.org/priv/legal-basis#NationalLawRegulatingFreedomOfExpressionAndInformation"
+    },
+    "EmploymentLaw" : {
+      "@id" : "https://w3id.org/priv/legal-basis#EmploymentLaw"
+    },
+    "GivenConsent" : {
+      "@id" : "https://w3id.org/priv/legal-basis#GivenConsent"
+    },
+    "LegalObligation" : {
+      "@id" : "https://w3id.org/priv/legal-basis#LegalObligation"
+    },
+    "LegitimateInterest" : {
+      "@id" : "https://w3id.org/priv/legal-basis#LegitimateInterest"
+    },
+    "LegalBasis" : {
+      "@id" : "https://w3id.org/priv/legal-basis#LegalBasis"
+    },
+    "TaskCarriedOutInPublicInterest" : {
+      "@id" : "https://w3id.org/priv/legal-basis#TaskCarriedOutInPublicInterest"
+    },
+    "OfficialAuthorityOfController" : {
+      "@id" : "https://w3id.org/priv/legal-basis#OfficialAuthorityOfController"
+    },
+    "hasLegalBasis" : {
+      "@id" : "https://w3id.org/priv/legal-basis#hasLegalBasis",
+      "@type" : "@id"
+    },
+    "ProtectVitalInterestsOfDataSubject" : {
+      "@id" : "https://w3id.org/priv/legal-basis#ProtectVitalInterestsOfDataSubject"
+    }
+  }
+}
