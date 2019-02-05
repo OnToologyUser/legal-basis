@@ -15,6 +15,7 @@
 
 ###  https://w3id.org/pinfer/dimensions#hasGranularity
 :hasLegalBasis rdf:type owl:ObjectProperty ;
+                rdfs:label "has legal basis" ;
                 rdfs:range :LegalBasis .
 
 #################################################################
